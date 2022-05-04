@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://culetter.site
+
+# Sitemaps
+Sitemap: https://culetter.site/sitemap.xml
+Sitemap: https://culetter.site/server-sitemap.xml

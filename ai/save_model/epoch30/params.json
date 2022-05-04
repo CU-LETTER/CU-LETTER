@@ -1,0 +1,1 @@
+{"slots_num": 2, "intents_num": 6, "bert_hub_path": "./albert-module", "num_bert_fine_tune_layers": 10, "is_bert": false}

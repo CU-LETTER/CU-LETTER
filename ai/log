@@ -1,0 +1,73 @@
+WARNING:tensorflow:From eval_joint_bert.py:38: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From eval_joint_bert.py:42: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-12-21 18:31:07.720840: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-12-21 18:31:07.743120: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3696000000 Hz
+2020-12-21 18:31:07.743625: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55afe16fa750 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-21 18:31:07.743646: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-21 18:31:07.745108: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-21 18:31:07.848451: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.848872: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55afe13a83c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-12-21 18:31:07.848891: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): TITAN V, Compute Capability 7.0
+2020-12-21 18:31:07.849033: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.849447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:01:00.0
+2020-12-21 18:31:07.849618: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-12-21 18:31:07.850506: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-12-21 18:31:07.851314: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2020-12-21 18:31:07.851504: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2020-12-21 18:31:07.852543: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2020-12-21 18:31:07.853354: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2020-12-21 18:31:07.855847: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-21 18:31:07.855934: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.856357: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.856688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2020-12-21 18:31:07.856717: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-12-21 18:31:07.857645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-21 18:31:07.857657: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2020-12-21 18:31:07.857662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2020-12-21 18:31:07.857740: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.858121: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-21 18:31:07.858471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11158 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:01:00.0, compute capability: 7.0)
+WARNING:tensorflow:From /mnt/data1/tta/envs/tf/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /mnt/data1/tta/envs/tf/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2020-12-21 18:31:19.443054: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+initializing!
+sess : <tensorflow.python.client.session.Session object at 0x7f97c845b9e8>
+is_bert : False
+bert_model_hub_path : ./albert-module
+initialized!
+Loading models ...
+slots output : (?, ?, 2)
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_ids (InputLayer)          [(None, None)]       0                                            
+__________________________________________________________________________________________________
+input_masks (InputLayer)        [(None, None)]       0                                            
+__________________________________________________________________________________________________
+segment_ids (InputLayer)        [(None, None)]       0                                            
+__________________________________________________________________________________________________
+AlbertLayer (AlbertLayer)       ((None, 768), (None, 11812272    input_ids[0][0]                  
+                                                                 input_masks[0][0]                
+                                                                 segment_ids[0][0]                
+__________________________________________________________________________________________________
+time_distributed (TimeDistribut (None, None, 2)      1538        AlbertLayer[0][1]                
+__________________________________________________________________________________________________
+intent_classifier (Dense)       (None, 6)            4614        AlbertLayer[0][0]                
+==================================================================================================
+Total params: 11,818,424
+Trainable params: 7,094,024
+Non-trainable params: 4,724,400
+__________________________________________________________________________________________________
+transform started
+==== Evaluation ====
+saving test_results to save_model/epoch30
+======= Done =======

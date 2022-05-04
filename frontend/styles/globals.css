@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Gowun Dodum";
+  src: url("../fonts/GowunDodum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gowun Batang";
+  src: url("../fonts/GowunBatang-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("../fonts/Arvo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSansKR-Regular.otf");
+}
+
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("../fonts/NanumGothic-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../fonts/NanumMyeongjo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nanum Pen";
+  src: url("../fonts/NanumPenScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nanum Brush";
+  src: url("../fonts/NanumBrushScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jua";
+  src: url("../fonts/Jua-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sunflower";
+  src: url("../fonts/Sunflower-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Dokdo";
+  src: url("../fonts/Dokdo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gaegu Light";
+  src: url("../fonts/Gaegu-Light.ttf");
+}
+
+@font-face {
+  font-family: "Gaegu";
+  src: url("../fonts/Gaegu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cute";
+  src: url("../fonts/CuteFont-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Dongle";
+  src: url("../fonts/Dongle-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Single Day";
+  src: url("../fonts/SingleDay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Yeon Sung";
+  src: url("../fonts/YeonSung-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Hamlet";
+  src: url("../fonts/Hahmlet-VariableFont_wght.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Gowun Batang, Gowun Dodum, Noto Sans;
+  /* background-color: #fcfaef; */
+  max-width: 100%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Dodum {
+  font-family: "Gowun Dodum";
+}
+
+.Batang {
+  font-family: "Gowun Batang";
+}
+
+.Arvo {
+  font-family: "Arvo";
+}
+
+.textfield {
+  color: "#FCFAEF";
+}
+
+.textfield__label {
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.card {
+  float: left;
+  margin: 1em;
+  position: relative;
+  perspective: 600px;
+  border-radius: 10px;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 2s ease;
+}
+
+.front {
+  z-index: 1;
+}
+
+.back {
+  z-index: 0;
+}
+
+.rotateFront {
+  transform: rotateY(-180deg);
+  transition: all 0.4s ease;
+  z-index: 0;
+}
+
+.rotateBack {
+  transform: rotateY(-180deg);
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.innerText {
+  transform: rotateY(-180deg);
+}
+
+.lp {
+  transform-origin: 50% 50%;
+}
+
+.lpRotate {
+  animation: rotate_image 20s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.playAlbum {
+  animation: rotate_image 20s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.playTitle {
+}
