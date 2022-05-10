@@ -87,64 +87,63 @@
 
 ## 🎞 프로젝트 진행상황
 
-### Web - 모바일 뷰 (https://www.culetter.site)
+### Web - 모바일 뷰
 
 #### Front-end
 
 - 로그인
 
-  ![로그인](/uploads/5ec7669ca961b24254da76b268a98f8b/로그인.gif)
+  <img src="README.assets/로그인.gif"/>
 
 - 회원가입  
   > 이메일, 비밀번호, 이름 입력하여 회원가입
 
-  ![회원가입](/uploads/e9b20af2b1a588976dab7e233129afdf/회원가입.gif)
+  <img src="README.assets/회원가입.gif"/>
 
 - 랜딩 페이지
   > 로그인 성공 시 랜딩 페이지로 전환
 
-  ![랜딩](/uploads/009252ea878a8730738426cd8e490c66/랜딩.gif)
+  <img src="README.assets/랜딩.gif"/>
 
 - 메인페이지
   > 편지쓰기, 받은편지, 보낸편지, 작성중인 편지 확인 
 
-  ![메인페이지](/uploads/0a4c74f36f4a7e053adb512992d819c8/메인페이지.gif)
+  <img src="README.assets/메인페이지.gif"/>
 
 - 수신인 선택 가능
   > 큐레터 친구 또는 비회원 중 선택가능  
 
-  ![수신인](/uploads/8faa0671994e464a951cd766a8bd987f/수신인.gif)
-
+  <img src="README.assets/수신인.gif"/>
 
 - 편지 형식 선택
   > 포토카드, 편지, 엽서 중 형식 선택
 
-  ![형식선택](/uploads/ea446cdd86504c3067d8670dc52bd436/형식선택.gif)
-
+  <img src="README.assets/형식선택.gif"/>
+  
 - 편지 쓰기
   > 편지의 제목과 내용을 입력  
 
-  ![작성](/uploads/e8b2ea1aba2c3bcd20b7110e864c605d/작성.gif)
+  <img src="README.assets/작성.gif"/>
 
 - 노래 추천
   > 편지의 내용과 어울리는 노래 추천
 
-  ![노래추천](/uploads/a7f4d52141063df0227803cfef066099/노래추천.gif)
+  <img src="README.assets/노래추천.gif"/>
 
 - 받은 편지함
   > 받은 편지 확인 
 
-  ![받은편지함](/uploads/b0598491fbde70b90f156910609b4685/받은펹지함.gif)
+  <img src="README.assets/받은편지함.gif"/>
 
 - 보낸 편지함
   > 보낸 편지 확인
 
-  ![보낸편지함](/uploads/e236927c8c3fb3919178a8a4a6c83f58/보낸편지함.gif)
+  <img src="README.assets/보낸편지함.gif"/>
 
 - 친구목록
   > 친구로 등록해놓은 사용자, 친구 요청, 즐겨찾기로 등록한 친구를 확인
 
-  ![친구](/uploads/d7cef8492784173d4396bc3aa51fdb5a/친구.gif)
+  <img src="README.assets/친구.gif"/>
 
 #### Back-end
 > [API 명세서](https://docs.google.com/spreadsheets/d/1PFSrwoFqF-2cbXGW0iAQ9UX8ulqPsUkS6NJEa9XhySA/edit#gid=0)
