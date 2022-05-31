@@ -149,7 +149,7 @@
 > [API 명세서](https://docs.google.com/spreadsheets/d/1PFSrwoFqF-2cbXGW0iAQ9UX8ulqPsUkS6NJEa9XhySA/edit#gid=0)
 - 회원 관리 API 구현
 - 친구 관리 API 구현
-- 편지 관리 API 구현 (진행 중)
+- 편지 관리 API 구현
 
 ------
 
